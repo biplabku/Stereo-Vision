@@ -14,4 +14,3 @@ Most important concept in block matching is using the sum of squared differences
 
 Dynamic Programming
 Numerous methods of implementation for stereo vision disparity mapping have been established in the past few years. Broadly speaking, disparity map algorithms can be classified into two categories - local or global approaches [2]. In the local approach, also known as window based approach, disparity is computed at any pixel depending on the intensity values within a predefined window. Such method considers only the local information and therefore have low computational complexity. Global approach treats disparity mapping as a problem of minimizing an objective global energy function. Such approach usually produces good results but are computationally expensive and are impractical for real time systems.
-
